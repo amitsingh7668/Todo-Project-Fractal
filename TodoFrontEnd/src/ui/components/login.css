@@ -1,0 +1,91 @@
+.login {
+    text-align: center;
+    background-color:lightseagreen;
+    margin: auto;
+    font-size: large;
+    margin-top: auto;
+    padding: 13%;
+    border-top: maroon;
+  }
+
+  .container-logout{
+    text-align: right;
+    
+    margin: auto;
+    font-size: large;
+    margin-top: auto;
+    
+    
+  }
+
+  .welcomeDom{
+    
+    background-color:lightgreen;
+    margin: auto;
+    font-size: large;
+    
+    height: 200%;
+    width: 100%;
+    
+    
+
+  }
+  .board-gap{
+    width:auto;
+height:auto;
+margin:auto;
+    padding: auto;
+    background-color: rgb(167, 164, 164);
+    border: 5px solid red;
+  }
+  .loginPage{
+    text-align: center;
+    background-color: rgb(167, 164, 164);
+    width: auto;
+    margin-left: 10%;
+
+  }
+
+  .board-gap-li{
+    text-align: center;
+    background-color: rgb(167, 164, 164);
+    width: 80%;
+    margin-left: 10%;
+
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
