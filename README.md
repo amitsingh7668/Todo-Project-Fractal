@@ -10,7 +10,7 @@ The Tech used are as below mentioned
       -> Architecture Hexagonal
       -> Log4j For logging
 
-  - FrontEnd
+  - FrontEnd (https://github.com/amitsingh7668/Todo-Project-Fractal/tree/main/TodoFrontEnd)
       -> JavaScript
       -> ReactJs
       -> ES6
