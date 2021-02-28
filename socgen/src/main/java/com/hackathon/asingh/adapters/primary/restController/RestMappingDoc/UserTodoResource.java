@@ -16,7 +16,7 @@ import com.hackathon.asingh.adapters.primary.restController.BaseController;
 import com.hackathon.asingh.corelogic.usecases.todoHandler;
 
 @RestController
-@RequestMapping("/user")
+@RequestMapping("/v1/todo")
 
 public class UserTodoResource extends BaseController {
 
@@ -35,7 +35,8 @@ public class UserTodoResource extends BaseController {
 	}
 
 	@PostMapping(value = { "/tasks/{taskname}" })
-	public ResponseEntity<Map<String, Object>> AddTasks(@PathVariable("taskname") String taskname
+	public ResponseEntity<Map<String, Object>> AddTasks(
+			@PathVariable("taskname") String taskname
 
 	) {
 

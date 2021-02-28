@@ -3,13 +3,15 @@ import React, { useState, useEffect } from "react";
 import Axios from 'axios';
 import 'react-dropdown/style.css';
 
+
 export function TodoApp() {
   const [task, setTask] = useState("");
   const [tasklist, setTaskList] = useState([]);
-  const todoBackEndUrl = "http://localhost:8081/user/";
+  const BACKEND_API_URL = "http://localhost:8080/v1/todo/"
   
+
   useEffect(() =>{
-    Axios.get(todoBackEndUrl+"tasks").then(a => 
+    Axios.get(BACKEND_API_URL+"tasks").then(a => 
     {
         setTaskList(a.data.data);
     })
@@ -20,14 +22,14 @@ export function TodoApp() {
   };
 
   const AddTask = () => {
-    Axios.post(todoBackEndUrl+"tasks/"+task).then(a => 
+    Axios.post(BACKEND_API_URL+"tasks/"+task).then(a => 
     {
         setTaskList(a.data.data);
     })
   };
 
   const deletetask = (e, id) => {
-    Axios.delete(todoBackEndUrl+"Deletetask/"+id).then(a => 
+    Axios.delete(BACKEND_API_URL+"Deletetask/"+id).then(a => 
     {
         setTaskList(a.data.data);
     })
@@ -35,14 +37,14 @@ export function TodoApp() {
 
 
   const updateStatus = (e, id) => {
-    Axios.put(todoBackEndUrl+"UpdateStatus/"+id).then(a => 
+    Axios.put(BACKEND_API_URL+"UpdateStatus/"+id).then(a => 
     {
         setTaskList(a.data.data);
     })
   };
 
   const updateTaskBucket = (e, id) => {
-    Axios.put(todoBackEndUrl+"taskStatus/"+id+"/"+e.target.value).then(a => 
+    Axios.put(BACKEND_API_URL+"taskStatus/"+id+"/"+e.target.value).then(a => 
     {
         setTaskList(a.data.data);
     })
@@ -65,7 +67,7 @@ const DropDown = (t) => {
 
   return (
     <div className="todo">
-        <h1 style={{color:"black"}}> Welcome Here's your TODO list</h1>
+        <h1 style={{color:"black"}}> Manage your TODO list</h1>
       <input type="text" name="text" id="text" onChange={(e) => handleChange(e)}placeholder="Add task here..."/>
       <button className="add-btn" onClick={() =>AddTask()}>Add Task</button>
       <br />
