@@ -29,6 +29,10 @@ The Tech used are as below mentioned
       -> npm start
       
       
- ![image](https://user-images.githubusercontent.com/56405921/109397452-9d6c3a80-795c-11eb-939c-c4b0c59d5451.png)
+ Application UI 
+ 
+ ![image](https://user-images.githubusercontent.com/56405921/109422614-5042a400-7a02-11eb-81a4-d45510733ce9.png)
+
+Swagger UI
  ![image](https://user-images.githubusercontent.com/56405921/109407741-5e180b00-79a9-11eb-88bd-632743f98e73.png)
 
