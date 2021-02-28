@@ -31,7 +31,8 @@ The Tech used are as below mentioned
       
  Application UI 
  
- ![image](https://user-images.githubusercontent.com/56405921/109422614-5042a400-7a02-11eb-81a4-d45510733ce9.png)
+ ![image](https://user-images.githubusercontent.com/56405921/109422671-93047c00-7a02-11eb-8b44-6606e2386a52.png)
+
 
 Swagger UI
  ![image](https://user-images.githubusercontent.com/56405921/109407741-5e180b00-79a9-11eb-88bd-632743f98e73.png)
