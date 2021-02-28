@@ -19,7 +19,7 @@ The Tech used are as below mentioned
       -> ES6
       
   - DataBase
-      -> PostgreSQL
+      -> PostgreSQL - TODO table query to execute https://github.com/amitsingh7668/Todo-Project-Fractal/blob/main/socgen/sql/todoTable.sql 
       
   - Commands for Launching the Backend
       -> mvn install 
