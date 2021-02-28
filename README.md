@@ -1,4 +1,4 @@
-# Todo-Project-Fractal
+# Todo-Application
 
 The project is Regarding Todo List Application
 
