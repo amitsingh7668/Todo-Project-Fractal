@@ -3,14 +3,14 @@
 The project is Regarding Todo List Application
 
 The Tech used are as below mentioned 
-  - BackEnd 
+  - BackEnd (https://github.com/amitsingh7668/Todo-Project-Fractal/tree/main/socgen)
       -> Java Springboot 2
       -> Hibernate (ORM)
       -> Design Pattern (factory Method)
       -> Architecture Hexagonal
       -> Log4j For logging
 
-  - FrontEnd
+  - FrontEnd (https://github.com/amitsingh7668/Todo-Project-Fractal/tree/main/TodoFrontEnd)
       -> JavaScript
       -> ReactJs
       -> ES6
