@@ -9,7 +9,7 @@ The Tech used are as below mentioned
       -> Design Pattern (factory Method)
       -> Architecture Hexagonal
       -> Log4j For logging
-      -> Swagger Exposed on [http://localhost:8080/swagger-ui.html#](url)
+  - BackEnd Swagger Exposed on [http://localhost:8080/swagger-ui.html#](url)
 
   - FrontEnd ([https://github.com/amitsingh7668/Todo-Project-Fractal/tree/main/TodoFrontEnd](url))
       -> JavaScript
